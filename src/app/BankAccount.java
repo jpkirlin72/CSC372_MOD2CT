@@ -17,9 +17,7 @@ public class BankAccount {
 		this.balance = startingBalance;
 	}
 	
-	
-	
-	
+		
 	//Get Balance
 	public double getBalance() {
 		return balance;

@@ -18,7 +18,7 @@ public class BankBalanceGUI extends JFrame{
 	private JLabel amountLabel;
 	private String pendingAction = "";
 	
-	private final BankAccount account = new BankAccount(0.0);
+	private final BankAccount account = new BankAccount();
 	private final NumberFormat money = NumberFormat.getCurrencyInstance();
     
     public BankBalanceGUI() {
